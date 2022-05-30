@@ -1,0 +1,63 @@
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+
+@font-face {
+    font-family: 'hk-grotesk';
+    src: url(./hk-grotesk/HKGrotesk-Light.otf);
+    // src: url(./hk-grotesk/HKGrotesk-LegacyItalic.otf)format("opentype");
+    // src: url(./hk-grotesk/HKGrotesk-LightLegacy.otf)format("opentype");
+    // src: url(./hk-grotesk/HKGrotesk-Medium.otf)format("opentype");
+    
+}
+
+// $font-family: var(--bs-font-serif);
+// $font-famaily-sans-serif: 'hk-grotesk',sans-serif;
+$line-height-base:            1.6;
+$font-size-base : 1.124rem;
+
+
+
+
+
+
+
+// body{
+//     font-family: "hk-grotesk";
+// }
+
+// h1{
+//    font-family: 'hk-grotesk',sans-serif;
+//    color: #161c2d !important;
+
+// //    font-size: 48px;
+// }
+// p{
+//     font-family: 'hk-grotesk',sans-serif;
+// }
+// h3{
+//     font-family: 'hk-grotesk',sans-serif;
+//    color: #161c2d !important;
+   
+// }
+// h2,h5{
+//     font-family: 'hk-grotesk',sans-serif;
+//    color: #161c2d !important;
+   
+// }
+// h4{
+//     font-family: 'hk-grotesk',sans-serif;
+//     color: #869ab8 !important;
+//     font-weight: normal;
+
+
+// }
+$primary :#335eea;
+$secondary:#869ab8;
+$success :#42ba96;
+$danger :#eaeffd;
+$black : #171e31;
+$body-color: #171e31;
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";
